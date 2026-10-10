@@ -1,0 +1,86 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    color: #333333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #db2777;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#home {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fce7f3;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    color: #db2777;
+}
+
+#about {
+    padding: 40px 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+#projects {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #db2777;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+#contact a {
+    color: #db2777;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #f472b6;
+}
+
+.card a {
+    color: #db2777;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: #f472b6;
+}
